@@ -48,3 +48,11 @@ function game(){
   let winner = score.player > score.computer ? "player" : "computer";
   return `${winner} wins!`;
 }
+
+
+const rockButton = document.getElementById("rock");
+const paperButton = document.getElementById("paper");
+const scissorsButton = document.getElementById("scissors");
+const score = document.getElementById("score");
+const results = document.getElementById("results");
+
